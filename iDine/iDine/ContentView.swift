@@ -18,7 +18,9 @@ struct ContentView: View {
                     Section(header:Text(secton.name)) {
                         ForEach(secton.items.indices,id:\.self){ j in
                             let item = secton.items[j]
-                            Text(item.name)
+                            NavigationLink(destination: ItemDetail(item:item)){
+                                ItemRow(item: item)
+                            }
                         }
                     }
                 }
