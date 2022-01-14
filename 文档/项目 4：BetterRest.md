@@ -1,6 +1,6 @@
 ## 项目 4：BetterRest
 
-[**使用机器学习改善睡眠**](https://www.hackingwithswift.com/books/ios-swiftui/betterrest-introduction)
+使用机器学习改善睡眠
 
 ## 概述
 
